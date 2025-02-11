@@ -3,6 +3,7 @@
     <title>rakesh html</title>
 </head>
 <body>
+    <!-- "1st process" -->
     <p>5>3</p>
     <p>5&gt;3</p>
     <p>3&lt;5</p>
@@ -12,6 +13,16 @@
     <h1>&amp;</h1>
     <h1>&reg;</h1>
      <!-- here gt,lt,copy,quot,CloseCurlyQuote,amp,reg are html entities. -->
-    <p>Lorem      ipsum dolor sit amet consectetur adipisicing elit. Fugiat, eveniet!</p>
+    <p>Lorem         ipsum dolor       sit amet consectetur         adipisicing elit. Fugiat, eveniet!</p>
+    <!-- here we can see so much space is not printing .this is called non breaking space.
+    1 space is default ,but  if there 2,3,4,5,more space then it will not print.and in such case if we want extra space then we should use 
+    &nbsp;(non breaking space) html entiti. -->
+    <p>Lorem &nbsp;&nbsp;&nbsp;ipsum dolor sit &nbsp;&nbsp;&nbsp;amet consectetur&nbsp;&nbsp;&nbsp; adipisicing elit. Excepturi, corrupti.</p>
+    <!-- "2nd process" -->
+    <h1>&#61;</h1>
+    <h1>&#62;</h1>
+    <h1>&#63;</h1>
+    <h1>&#67;</h1>
+   <!-- if we want html entities  then we can use 1st process or 2nd process -->
 </body>
 </html>
